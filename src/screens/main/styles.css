@@ -1,0 +1,418 @@
+.main {
+    margin: 0px;
+    background: #282828;
+    /* height: 100%; */
+    /* width: 100%; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    overflow-y: hidden;
+  }
+  
+  /* SCROLL */
+  div::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  div::-webkit-scrollbar-track {
+    background: #1A1A1A; 
+  }
+  
+  div::-webkit-scrollbar-thumb {
+    background: #282828; 
+    border-radius: 5px;
+  }
+  
+  div::-webkit-scrollbar-thumb:hover {
+    background: #585858; 
+  }
+  
+  
+  .logoText {
+    overflow: hidden;
+    display: flex;
+    width: 80vw;
+    top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+  }
+  
+  .logoTextView {
+    width: 100%; 
+    text-align: center;
+  }
+  
+  .logoTextWelcome {
+    font-size: 36px !important;
+  }
+  
+  .logoText .logoSymbol {
+    zoom: 4;
+    font-family: Texturina !important;
+    color: white !important;
+    font-size: 48px !important;
+  }
+  
+  .logoText .logoInfinity{
+    font-family: Texturina !important;
+    color: #CC25B0 !important;
+    font-size: 72px !important;
+    zoom: 3;
+  }
+  
+  .bodyTitleMobile {
+    display: none;
+  }
+  .bodyTitleMobileView {
+    display: none;
+  }
+  .bodyTitle {
+    cursor: context-menu;
+    user-select: none;
+    position: absolute;
+    /* width: 1381px; */
+    height: 70px;
+    left: 99px;
+    top: -5px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.135em;
+    color: #585858;
+    z-index: 2;
+  }
+  
+  .sideMenu {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 80px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #1A1A1A;
+    justify-content: space-between;
+  }
+  
+  .sideMenu div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sideMenuHeader {
+    padding-top: 20px;
+  }
+  
+  .sideMenuFooter {
+    padding-bottom: 20px;
+  }
+  
+  .sideMenuHeader i {
+    color: white; 
+    font-size: 30px;
+    padding-bottom: 25px;
+    cursor: pointer;
+  }
+  .sideMenuFooter i {
+    color: white; 
+    font-size: 30px;
+    padding-top: 25px;
+    cursor: pointer;
+  }
+  
+  .sideMenu img {
+    padding-top: 25px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .contentTopDetail {
+    position: absolute;
+    width: 175px;
+    height: 42px;
+    left: 99px;
+    top: 66px;
+    z-index: 2;
+  
+    background: #1A1A1A;
+    box-shadow: inset 0px 6px 0px -3px rgba(255, 255, 255, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contentTopDetailTexts {
+    display: flex;
+  }
+  
+  .contentTopDetailTexts span {
+    cursor: context-menu;
+    user-select: none;
+  }
+  
+  .contentTopDetailJS {    
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.085em;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    color: #847A09;
+  } 
+  
+  .contentTopDetailMain {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+  
+    color: #585858;
+  }
+  
+  .contentTopDetailEllipse {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: #C4C4C4;
+  }
+  
+  .contentTotal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 108px;
+    padding-left: 99px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+  }
+  
+  .contentArea {
+    height: 100%;
+    display: flex;
+    max-width: 1440px;
+    background: #1A1A1A;
+  }
+  
+  .contentAreaTitle {
+    position: absolute;
+    display: flex;
+    padding-left: 16px;
+    padding-top: 10px;
+  }
+  
+  .contentAreaTitle span {
+    cursor: context-menu;
+    user-select: none;
+    margin-right: 10px;
+  }
+  
+  .contentAreaTitleJS {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.085em;
+    color: #847A09;
+  }
+  
+  .contentAreaTitleMain {    
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #585858;
+  }
+  
+  .contentAreaTitleForeverdevs {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #CC25B0;
+  }
+  
+  .contentAreaNumbers {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 24px;
+  }
+  
+  .contentAreaNumbers span {
+    cursor: context-menu;
+    user-select: none;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #585858;
+    margin-bottom: 5px;
+  }
+  
+  .content {
+    overflow-y: auto;
+    margin: 50px;
+    padding: 20px;
+  }
+  
+  .content span {
+    font-family: Ubuntu;
+    font-size: 24px;
+    color: #FFFFEF
+  }
+  
+  .foreverdevsFooter { 
+    position: absolute;
+    bottom: 20px;
+    left: 99px;
+  }
+  
+  .foreverdevsFooter span {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #585858;
+  }
+  
+  .imagem {
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    margin: 30px;
+    width: 500px;
+    height: 300px;
+  }
+  
+  @media screen and
+  (max-width: 920px)
+  ,
+  (max-height: 799px)
+  {
+    .logoText {
+        width: 100vw;
+    }
+  
+    .contentTopDetail {
+        display: none;
+    }
+  
+    .bodyTitle {
+        display: none;
+    }
+  
+    .contentAreaTitle {
+        display: none;
+    }
+  
+    .contentAreaNumbers {
+        display: none;
+    }
+  
+    .foreverdevsFooter {
+        display: none;
+    }
+  
+    .contentTotal {
+        padding: 0;
+        padding-top: 50px;
+    }
+  
+    .sideMenu {
+        flex-direction: row;
+        width: 100%;
+        height: 50px;
+        background-color: #282828;
+    }
+  
+    .sideMenu div {
+        padding: 0px 20px;
+        flex-direction: row;
+        /* justify-content: start; */
+        align-items: center;
+    }
+  
+    .sideMenu i {
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px;
+    }
+  
+    .sideMenu img {
+        margin: 0px;
+        padding: 0px;
+        width: 15px;
+    }
+  
+    .sideMenuHeader i {
+        margin-right: 10px;
+    }
+    .sideMenuFooter i {
+        margin-left: 10px;
+    }
+  
+    .bodyTitleMobileView {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        z-index: 3;
+        align-items: center;
+        height: 50px;
+    }
+  
+    .bodyTitleMobile {
+        display: flex;
+        cursor: context-menu;
+        user-select: none;
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 0.135em;
+        color: #e5e5e5;
+        z-index: 4;
+    }
+  
+    .content {
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+    }
+  
+    .content span {
+        font-size: 16px;
+        text-align: justify;
+    }
+  
+    .imagem {
+        height: 140px;
+        width: 200px;
+        margin: 10px;
+    }
+  }
+  
