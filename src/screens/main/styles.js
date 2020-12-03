@@ -240,6 +240,10 @@ export const ContentAreaNumbers = styled.div`
     flex-direction: column;
     margin-top: 40px;
     margin-left: 24px;
+
+    @media screen and (max-width: 920px), (max-height: 799px) {
+        display: none;
+    }
 `
 export const ContentAreaNumbersText = styled.span`
     cursor: context-menu;
